@@ -33,4 +33,7 @@ sortResultA=$(printf '%s\n' "${resultDict[@]}" | sort -n)
 
 echo -e "Sorted result in descending order:\n $sortResultD"
 
+printf "\n"
+
+echo -e "Sorted result in ascending order:\n $sortResultA"
 
