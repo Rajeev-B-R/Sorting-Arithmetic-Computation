@@ -17,4 +17,7 @@ echo "c+(a/b):" $val3
 echo "(a%b)+c:" $val4
 
 declare -A resultDict=([1]=$val1 [2]=$val2 [3]=$val3 [4]=$val4)
+arrResult=${resultDict[@]}
+
 echo "All result values: ${resultDict[@]}"
+echo "All array values: ${arrResult[@]}"
