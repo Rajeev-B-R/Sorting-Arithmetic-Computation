@@ -29,7 +29,6 @@ echo "All array values: ${arrResult[@]}"
 printf "\n"
 
 sortResultD=$(printf '%s\n' "${resultDict[@]}" | sort -nr)
-sortResultA=$(printf '%s\n' "${resultDict[@]}" | sort -n)
 
 echo -e "Sorted result in descending order:\n $sortResultD"
 
